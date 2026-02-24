@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <!-- Display -->
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="0"
+        android:gravity="bottom|end"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:textSize="48sp" />
+
+    <!-- Buttons Grid -->
+    <GridLayout
+        android:id="@+id/buttonGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:columnCount="4"
+        android:rowCount="6">
+
+        <!-- Row 1 -->
+        <Button
+            android:text="C"
+            android:layout_columnSpan="2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="2"
+            android:backgroundTint="#FF9800"/>
+
+        <Button
+            android:text="SIN"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#454545"/>
+
+        <Button
+            android:text="COS"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#454545"/>
+
+        <!-- Row 2 -->
+        <Button android:text="TAN" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#454545"/>
+
+        <Button android:text="LOG" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#454545"/>
+
+        <Button android:text="√" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#454545"/>
+
+        <Button android:text="%" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#FF9800"/>
+
+        <!-- Row 3 -->
+        <Button android:text="7" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#808080"/>
+
+        <Button android:text="8" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#808080"/>
+
+        <Button android:text="9" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#808080"/>
+
+        <Button android:text="*" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#FF9800"/>
+
+        <!-- Row 4 -->
+        <Button android:text="4" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#808080"/>
+
+        <Button android:text="5" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#808080"/>
+
+        <Button android:text="6" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#808080"/>
+
+        <Button android:text="-" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#FF9800"/>
+
+        <!-- Row 5 -->
+        <Button android:text="1" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#808080"/>
+
+        <Button android:text="2" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#808080"/>
+
+        <Button android:text="3" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#808080"/>
+
+        <Button android:text="+" android:layout_width="0dp"
+            android:layout_height="60dp" android:layout_columnWeight="1"
+            android:backgroundTint="#FF9800"/>
+
+        <!-- Row 6 -->
+        <Button android:text="0"
+            android:layout_columnSpan="2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="2"
+            android:backgroundTint="#454545"/>
+
+        <Button android:text="."
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#454545"/>
+
+        <Button android:text="="
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FF9800"/>
+
+    </GridLayout>
+
+</LinearLayout>
